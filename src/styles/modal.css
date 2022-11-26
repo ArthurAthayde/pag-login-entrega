@@ -1,0 +1,115 @@
+.modal__fullScreen{
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0,0,0, 0.5);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__container{
+    width: 346px;
+    height: 329px;
+    background-color:var(--color-grey-6);
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    border-radius: 8px;    
+}
+
+.modal__container > h3{
+    font-size: 17px;
+    color: var(--color-secondary);
+
+    text-align: center;
+
+    padding: 20px 0 45px 0;
+}
+
+.modal__container > #closeBt{
+    position: absolute;
+
+    height: 32px;
+    width: 32px;
+
+    border: none;
+    border-radius: 4px;
+    
+    background-color: var(--color-primary);
+
+    top: 10px;
+    right: 10px;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+
+    color: var(--color-secondary);
+
+    cursor: pointer;
+}
+
+.modal__container p{
+
+    text-align: center;
+
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-secondary);
+
+    padding: 0 30px;
+}
+
+.modal__container input{
+   
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(97, 219, 219, 0.33);
+
+    width: 240px;
+    height: 30px;
+
+    position: absolute;
+    bottom: 108px;
+    right: 52px;
+
+    background-image: url(../assets/mailcolored.png);
+    background-position-x: left ;
+    background-repeat: no-repeat;
+    background-size: 13%;
+
+    opacity: 0.6;   
+
+    padding-left: 34px;
+    
+    outline: none;
+
+}
+
+#submitBt{
+    width: 240px;
+    height: 45px;
+
+    position: absolute;
+    bottom: 23px;
+    left: 53px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 700px;
+    text-transform: uppercase;
+
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+
+    cursor: pointer;
+}

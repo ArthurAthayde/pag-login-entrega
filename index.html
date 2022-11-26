@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/globalStyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
     <title>Login</title>
 </head>
+
 <body>
+    <div class="main__container">
+        <div class="main__brand">
+            <div class="main__logo">
+                <div class="main__logo-bg">
+                    <img src="./src/assets/cube.png" alt="" srcset="">
+                    <p>
+                        Cubix Store
+                    </p>
+                </div>
+            </div>
+            <div class="main__info">
+                <div class="main__info-bg">
+                    <p>
+                        Sua loja quadradinha
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main__login">
+            <p>
+                Login
+            </p>
+
+            <form action="">
+                <label for="user">Usuário</label>
+                <input type="text" id="user" name="user">
+                <label for="password">Senha</label>
+                <input type="text" id="password" name="password">
+                <button id="forgotBt" type="submit">Esqueceu a senha?</button>
+                <button id="enterBt" type="submit">ENTRAR</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- <div class="modal__fullScreen">
+
+        <form class="modal__container">
+            <h3>
+                Xi, esqueceu a senha?
+            </h3>
+            <button id="closeBt">
+                X
+            </button>
+            <p>
+                Não tem problema!
+                <br><br>
+                Coloca aqui seu email pra gente te mandar um help com a senha:
+            </p>
+            <input type="text" id="email" name="email">
+            <button class="submitBt">ENVIAR</button>
+        </form>
+
+    </div> -->
+
+    <script src="./src/scripts/index.js"></script>
     <script src="./src/scripts/modal.js"></script>
 </body>
+
 </html>
